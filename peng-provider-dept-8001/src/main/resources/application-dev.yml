@@ -1,0 +1,43 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: peng-provider-dept
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/peng-microservice-platform-db8001?useUnicode=true&characterEncoding=utf-8&useSSL=false
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peng:123456@localhost:9001/eureka,http://peng:123456@localhost:9002/eureka,http://peng:123456@localhost:9003/eureka
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+    prefer-ip-address: true
+
+
+    security:
+      basic:
+        enabled: true
+      user:
+        name: peng
+        password: 123456
+
+
+
+info: # 在eureka中可以点击info链接，显示有值。链接后的内容就是在这里配置的
+  app.name: peng-microservice-platform
+  company.name: www.peng.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.peng.entity
+  mapper-locations: classpath:mybatis/mapper/**/*.xml

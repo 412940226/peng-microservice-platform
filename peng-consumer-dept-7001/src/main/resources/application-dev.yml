@@ -1,0 +1,20 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: peng-consumer-dept
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peng:123456@localhost:9001/eureka,http://peng:123456@localhost:9002/eureka,http://peng:123456@localhost:9003/eureka
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+    prefer-ip-address: true
+
+
+    security:
+      basic:
+        enabled: true
+      user:
+        name: peng
+        password: 123456

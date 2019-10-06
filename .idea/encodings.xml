@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-dept-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-dept-feign-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-dept-hystrix-dashboard-7004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-dept-ribbon-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-eureka-9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-eureka-9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-eureka-9003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-provider-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-provider-dept-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-provider-dept-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-provider-dept-hystrix-8004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peng-zuul-gateway-6001" charset="UTF-8" />
+  </component>
+</project>
